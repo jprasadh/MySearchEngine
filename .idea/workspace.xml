@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628bab0d-1974-4af6-b7ff-2355f0d4867a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DaysBetweenDates.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JungleAnimals.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TenRowAbacus.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LeapYearBaby.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HW2.py" afterPath="$PROJECT_DIR$/Palindrome.py" />
-      <change beforePath="$PROJECT_DIR$/HW3.py" afterPath="$PROJECT_DIR$/HW3.py" />
-      <change beforePath="$PROJECT_DIR$/HW4.py" afterPath="$PROJECT_DIR$/Weekends.py" />
-      <change beforePath="$PROJECT_DIR$/PS 1.py" afterPath="$PROJECT_DIR$/Stamps.py" />
+      <change beforePath="$PROJECT_DIR$/JungleAnimals.py" afterPath="$PROJECT_DIR$/JungleAnimals.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,12 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JungleAnimals.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JungleAnimals.py">
+      <file leaf-file-name="LeapYearBaby.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeapYearBaby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#522#679#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +63,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/PS 3.py" />
         <option value="$PROJECT_DIR$/JungleAnimals.py" />
+        <option value="$PROJECT_DIR$/LeapYearBaby.py" />
       </list>
     </option>
   </component>
@@ -123,8 +121,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PS 3">
-    <configuration name="HW3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.LeapYearBaby">
+    <configuration name="JungleAnimals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -136,13 +134,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JungleAnimals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PS 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LeapYearBaby" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -154,7 +152,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="C:\Users\jprasadh\PycharmProjects\MySearchEngine\Stamps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeapYearBaby.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,19 +213,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.HW3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PS 1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PS 2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PS 3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PS 2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PS 3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.JungleAnimals" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeapYearBaby" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PS 3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PS 2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.HW3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PS 1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeapYearBaby" />
+        <item index="1" class="java.lang.String" itemvalue="Python.JungleAnimals" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PS 3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PS 2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514432009148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New file">
+      <created>1514504671399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514504671399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -517,22 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DaysBetweenDates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#289#446#0" expanded="false" />
-            <element signature="e#483#671#0" expanded="false" />
-            <element signature="e#709#898#0" expanded="false" />
-            <element signature="e#964#1153#0" expanded="false" />
-            <element signature="e#1224#1393#0" expanded="false" />
-            <element signature="e#1429#1874#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
@@ -567,9 +556,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JungleAnimals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DaysBetweenDates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#289#446#0" expanded="false" />
+            <element signature="e#483#671#0" expanded="false" />
+            <element signature="e#709#898#0" expanded="false" />
+            <element signature="e#964#1153#0" expanded="false" />
+            <element signature="e#1224#1393#0" expanded="false" />
+            <element signature="e#1429#1874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeapYearBaby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#522#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

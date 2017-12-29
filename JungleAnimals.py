@@ -14,12 +14,21 @@
 # an animal and your speed (in km/h),
 # and prints out what to do.
 
+
 def jungle_animal(animal, my_speed):
-    # YOUR CODE HERE
+    if animal == "zebra":
+        print("Try to ride a zebra!")
+    elif animal == "cheetah":
+        if my_speed > 115:
+            print("Run!")
+        else:
+            print("Stay calm and wait!")
+    else:
+        print("Introduce yourself!")
 
 
-#jungle_animal('cheetah', 30)
+jungle_animal('cheetah', 30)
 #>>> "Stay calm and wait!"
 
-#jungle_animal('gorilla', 21)
+jungle_animal('gorilla', 21)
 #>>> "Introduce yourself!"
