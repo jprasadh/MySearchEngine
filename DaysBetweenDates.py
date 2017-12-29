@@ -53,6 +53,7 @@ def dayIsBefore(year1, month1, day1, year2, month2, day2):
 
 
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
+    assert not dayIsBefore(year2, month2, day2, year1, month1, day1)
     days = 0
     while dayIsBefore(year1, month1, day1, year2, month2, day2):
         (year1, month1, day1) = nextDay(year1, month1, day1)
