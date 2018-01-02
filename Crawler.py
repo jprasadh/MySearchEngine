@@ -59,14 +59,11 @@ def crawl(seed, max_pages):
     tocrawl = [seed]                                    # to-do list for crawler
     crawled = []                                        # output of crawler: list of crawled urls
     while tocrawl:
-        if len(crawled) < max_pages:
-            url = tocrawl.pop(0)                            # crawls starting from *first* page in list "tocrawl"
-            if url not in crawled:                          # ensures that we do not crawl the same site over and over again
-                links = get_all_links(get_source(url))      # crawls last page and stores in "links"
-                union(tocrawl, links)                       # adds newly found links to "tocrawl" using union method
-                crawled.append(url)                         # appends crawled page to "crawled"
-        else:
-            break
+        url = tocrawl.pop(0)                            # crawls starting from *first* page in list "tocrawl"
+        if url not in crawled and len(crawled) < max_pages:                          # ensures that we do not crawl the same site over and over again
+            links = get_all_links(get_source(url))      # crawls last page and stores in "links"
+            union(tocrawl, links)                       # adds newly found links to "tocrawl" using union method
+            crawled.append(url)                         # appends crawled page to "crawled"
     return crawled
 
 
