@@ -55,15 +55,19 @@ def union(p, q):
             p.append(e)
 
 
-def crawl(seed, max_pages):
+def crawl(seed, max_depth):
     tocrawl = [seed]                                    # to-do list for crawler
     crawled = []                                        # output of crawler: list of crawled urls
-    while tocrawl:
+    next_depth = []
+    depth = 0
+    while tocrawl and depth <= max_depth:
         url = tocrawl.pop(0)                            # crawls starting from *first* page in list "tocrawl"
-        if url not in crawled and len(crawled) < max_pages:                          # ensures that we do not crawl the same site over and over again
+        if url not in crawled:                          # ensures we don't crawl the same site over and over again
             links = get_all_links(get_source(url))      # crawls last page and stores in "links"
-            union(tocrawl, links)                       # adds newly found links to "tocrawl" using union method
+            union(next_depth, links)                    # adds newly found links to "next_depth" using union method
             crawled.append(url)                         # appends crawled page to "crawled"
+        if not tocrawl:
+            tocrawl, next_depth = next_depth, []
     return crawled
 
 
