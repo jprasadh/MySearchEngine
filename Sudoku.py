@@ -56,25 +56,71 @@ incorrect5 = [[1, 1.5],
               [1.5, 1]]
 
 
-def check_sudoku():
+def all_inputs_valid(puzzle):
+    n = len(puzzle)
+    for r in puzzle:
+        i = 0
+        while i < n:
+            if not isinstance(r[i], int):
+                return False
+            i += 1
+        if r[0] == r[n-1] and n != 1:
+            return False
+    for r in puzzle:
+        j = 0
+        if n != 1:
+            if r[j] == r[j + 1]:
+                return False
+        j += 1
+
+    return True
 
 
-#   print(check_sudoku(incorrect))
+def check_sudoku(sudoku):
+    if not all_inputs_valid(sudoku):
+        return False
+    n = len(sudoku)
+    i = 0
+    rowsum = 0
+    while i <= n:
+        rowsum += i
+        i += 1
+    # calculates sum of a correct row of the given nxn input, rowsum
+    for row in sudoku:
+        i = 0
+        sumrow = 0
+        while i < n:
+            sumrow += row[i]
+            i += 1
+        if sumrow != rowsum:
+            return False
+    j = 0
+    while j < n:
+        sumcol = 0
+        for k in sudoku:
+            sumcol += k[j]
+        if sumcol != rowsum:
+            return False
+        j += 1
+    return True
+
+
+print(check_sudoku(incorrect))
 # >>> False
 
-# print(check_sudoku(correct))
+print(check_sudoku(correct))
 # >>> True
 
-# print(check_sudoku(incorrect2))
+print(check_sudoku(incorrect2))
 # >>> False
 
-# print(check_sudoku(incorrect3))
+print(check_sudoku(incorrect3))
 # >>> False
 
-# print(check_sudoku(incorrect4))
+print(check_sudoku(incorrect4))
 # >>> False
 
-# print(check_sudoku(incorrect5))
+print(check_sudoku(incorrect5))
 # >>> False
 
 
