@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="628bab0d-1974-4af6-b7ff-2355f0d4867a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Antisymmetric.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/IdentityMatrix.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MeanOfAList.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Symmetric.py" />
+    <list default="true" id="628bab0d-1974-4af6-b7ff-2355f0d4867a" name="Default" comment="New file">
+      <change beforePath="" afterPath="$PROJECT_DIR$/FrequencyAnalysis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NumbersInLists.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Sudoku.py" afterPath="$PROJECT_DIR$/Sudoku.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IdentityMatrix.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IdentityMatrix.py">
+      <file leaf-file-name="NumbersInLists.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NumbersInLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrequencyAnalysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrequencyAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -76,6 +83,8 @@
         <option value="$PROJECT_DIR$/MeanOfAList.py" />
         <option value="$PROJECT_DIR$/Antisymmetric.py" />
         <option value="$PROJECT_DIR$/IdentityMatrix.py" />
+        <option value="$PROJECT_DIR$/NumbersInLists.py" />
+        <option value="$PROJECT_DIR$/FrequencyAnalysis.py" />
       </list>
     </option>
   </component>
@@ -133,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IdentityMatrix">
+  <component name="RunManager" selected="Python.FrequencyAnalysis">
     <configuration name="Antisymmetric" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,6 +156,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Antisymmetric.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="FrequencyAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MySearchEngine" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FrequencyAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,24 +215,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoku.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Symmetric" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,19 +234,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Sudoku" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Symmetric" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MeanOfAList" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Antisymmetric" />
-      <item index="4" class="java.lang.String" itemvalue="Python.IdentityMatrix" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Symmetric" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MeanOfAList" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Antisymmetric" />
+      <item index="3" class="java.lang.String" itemvalue="Python.IdentityMatrix" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FrequencyAnalysis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.IdentityMatrix" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Antisymmetric" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MeanOfAList" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Symmetric" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Sudoku" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FrequencyAnalysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.IdentityMatrix" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Antisymmetric" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MeanOfAList" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Symmetric" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514868287591</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="New file">
+      <created>1514954539595</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1514954539595</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -397,37 +413,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sudoku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Crawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#324#0" expanded="false" />
-            <element signature="e#356#679#0" expanded="false" />
-            <element signature="e#804#2138#0" expanded="false" />
-            <element signature="e#2162#2220#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#324#0" expanded="false" />
-            <element signature="e#356#679#0" expanded="false" />
-            <element signature="e#804#2138#0" expanded="false" />
-            <element signature="e#2162#2220#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,12 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#33#324#0" expanded="false" />
-            <element signature="e#356#679#0" expanded="false" />
-            <element signature="e#804#2138#0" expanded="false" />
-            <element signature="e#2162#2220#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,12 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="67" column="91" lean-forward="false" selection-start-line="67" selection-start-column="91" selection-end-line="67" selection-end-column="91" />
-          <folding>
-            <element signature="e#33#324#0" expanded="false" />
-            <element signature="e#356#679#0" expanded="false" />
-            <element signature="e#804#2138#0" expanded="false" />
-            <element signature="e#2162#2220#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,14 +739,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IdentityMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NumbersInLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrequencyAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
