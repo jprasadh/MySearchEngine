@@ -1,8 +1,8 @@
-# Define a function, hash_string,
-# that takes as inputs a keyword
-# (string) and a number of buckets,
-# and returns a number representing
-# the bucket for that keyword.
+
+
+def hashtable_get_bucket(htable, keyword):
+    bucket = hash_string(keyword, len(htable))
+    return htable[bucket]
 
 
 def hash_string(keyword, buckets):
@@ -13,17 +13,9 @@ def hash_string(keyword, buckets):
     return unique_sum
 
 
-print(hash_string('a', 12))
-# >>> 1
+def make_hashtable(nbuckets):
+    table = []
+    for unused in range(0,nbuckets):
+        table.append([])
+    return table
 
-print(hash_string('b', 12))
-# >>> 2
-
-print(hash_string('a', 13))
-# >>> 6
-
-print(hash_string('au', 12))
-# >>> 10
-
-print(hash_string('udacity', 12))
-# >>> 11
