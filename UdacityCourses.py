@@ -98,3 +98,24 @@ def when_offered(courses, course):
             whenoffered.append(hexamester)
     return whenoffered
 
+
+# [Double Gold Star] Define a procedure, involved(courses, person), that takes
+# as input a courses structure and a person and returns a Dictionary that
+# describes all the courses the person is involved in.  A person is involved
+# in a course if they are a value for any property for the course.  The output
+# Dictionary should have hexamesters as its keys, and each value should be a
+# list of courses that are offered that hexamester (the courses in the list
+# can be in any order).
+
+def involved(courses, person):
+    output = {}
+    for hexamester in courses:
+        for course in courses[hexamester]:
+            for property in courses[hexamester][course]:
+                if courses[hexamester][course][property] == person:
+                    if hexamester in output:
+                        output[hexamester].append(course)
+                    else:
+                        output[hexamester] = [course]
+    return output
+
