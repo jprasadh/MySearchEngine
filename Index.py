@@ -1,19 +1,19 @@
-index = []
+index = {}
 
 
 def add_to_index(index, keyword, url):
-    for entry in index:
-        if entry[0] == keyword:
-            entry[1].append(url)
-            return
-    index.append([keyword, [url]])
+    if keyword in index:
+        index[keyword].append(url)
+    else:
+        # not found, create new entry
+        index[keyword] = [url]
 
 
 def lookup(index, keyword):
-    for entry in index:
-        if entry[0] == keyword:
-            return entry[1]
-    return []
+    if keyword in index:
+        return index[keyword]
+    else:
+        return None
 
 
 def add_page_to_index(index, url, content):

@@ -40,7 +40,7 @@ def crawl(seed):
     import Index
     tocrawl = [seed]  # to-do list for crawler
     crawled = []  # output of crawler: list of crawled urls
-    index = []
+    index = {}
     while tocrawl:
         url = tocrawl.pop(0)  # crawls starting from *first* page in list "tocrawl"
         if url not in crawled:  # ensures we don't crawl the same site over and over again
