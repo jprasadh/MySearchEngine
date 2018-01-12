@@ -41,17 +41,39 @@ def crawl(seed):
     tocrawl = [seed]  # to-do list for crawler
     crawled = []  # output of crawler: list of crawled urls
     index = {}
+    graph = {}    # nodes are urls and edges are links from one url's page to another
     while tocrawl:
         url = tocrawl.pop(0)  # crawls starting from *first* page in list "tocrawl"
         if url not in crawled:  # ensures we don't crawl the same site over and over again
             content = get_source(url)  # stores source of site into "content"
             Index.add_page_to_index(index, url, content)
-            links = get_all_links(content)  # crawls last page and stores in "links"
-            union(tocrawl, links)  # adds newly found links to "next_depth" using union method
+            outlinks = get_all_links(content)  # crawls last page and stores in "outlinks"
+            graph[url] = outlinks
+            union(tocrawl, outlinks)  # adds newly found links to "next_depth" using union method
             crawled.append(url)  # appends crawled page to "crawled"
-    return index
+    return index, graph
+
+
+def compute_ranks(graph):
+    d = 0.8            # damping factor
+    numloops = 10
+
+    ranks = {}
+    npages = len(graph)
+    for page in graph:
+        ranks[page] = 1.0/npages
+    for i in range(0, numloops):
+        newranks = {}
+        for page in graph:
+            newrank = (1 - d) / npages
+            for node in graph:
+                if page in graph[node]:
+                    newrank += d * (ranks[node] / len(graph[node]))
+            newranks[page] = newrank
+        ranks = newranks
+    return ranks
 
 
 # seed page is just some url with links on it
-seed_site = "http://webtrain.austincc.edu/~jprasadh/"
+seed_site = "https://udacity.github.io/cs101x/urank/"
 print(get_source(seed_site))
