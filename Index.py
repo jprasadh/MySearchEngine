@@ -21,3 +21,14 @@ def add_page_to_index(index, url, content):
     for word in words:
         add_to_index(index, word, url)
 
+
+def lucky_search(index, ranks, keyword):
+    pages = lookup(index, keyword)
+    if not pages:
+        return None
+    best = pages[0]
+    for page in pages:
+        if ranks[page] > ranks[best]:
+            best = page
+    return best
+

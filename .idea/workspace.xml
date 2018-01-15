@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628bab0d-1974-4af6-b7ff-2355f0d4867a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DeepCount.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FamilyTrees.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KhayyamTriangle.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OrderedSearch.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Index.py" afterPath="$PROJECT_DIR$/Index.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +19,45 @@
     <favorites_list name="MySearchEngine" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="OrderedSearch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OrderedSearch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#2212#4201#0" expanded="false" />
+                <element signature="e#2264#2820#0" expanded="false" />
+                <element signature="e#2871#3152#0" expanded="false" />
+                <element signature="e#3205#3371#0" expanded="false" />
+                <element signature="e#3426#3706#0" expanded="false" />
+                <element signature="e#3760#3997#0" expanded="false" />
+                <element signature="e#4050#4198#0" expanded="false" />
+                <element signature="e#4227#4283#0" expanded="false" />
+                <element signature="e#4317#4560#0" expanded="false" />
+                <element signature="e#4592#4790#0" expanded="false" />
+                <element signature="e#4814#4872#0" expanded="false" />
+                <element signature="e#4923#5008#0" expanded="false" />
+                <element signature="e#5054#5150#0" expanded="false" />
+                <element signature="e#5185#5265#0" expanded="false" />
+                <element signature="e#5328#5773#0" expanded="false" />
+                <element signature="e#5806#6296#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,9 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test" />
-        <option value="$PROJECT_DIR$/Lesson 1.py" />
-        <option value="$PROJECT_DIR$/Lesson 2.py" />
         <option value="$PROJECT_DIR$/Day 1.py" />
         <option value="$PROJECT_DIR$/Day 2.py" />
         <option value="$PROJECT_DIR$/HW1.py" />
@@ -70,7 +108,6 @@
         <option value="$PROJECT_DIR$/ConvertingSeconds.py" />
         <option value="$PROJECT_DIR$/DownloadCalculator.py" />
         <option value="$PROJECT_DIR$/Day 9.py" />
-        <option value="$PROJECT_DIR$/Index.py" />
         <option value="$PROJECT_DIR$/UdacityCourses.py" />
         <option value="$PROJECT_DIR$/Hash.py" />
         <option value="$PROJECT_DIR$/Memoization.py" />
@@ -82,6 +119,10 @@
         <option value="$PROJECT_DIR$/RabbitModel.py" />
         <option value="$PROJECT_DIR$/Udaciousness.py" />
         <option value="$PROJECT_DIR$/Deep Search.py" />
+        <option value="$PROJECT_DIR$/Index.py" />
+        <option value="$PROJECT_DIR$/FamilyTrees.py" />
+        <option value="$PROJECT_DIR$/KhayyamTriangle.py" />
+        <option value="$PROJECT_DIR$/OrderedSearch.py" />
       </list>
     </option>
   </component>
@@ -109,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -122,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Crawler">
+  <component name="RunManager" selected="Python.OrderedSearch">
     <configuration name="Crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +204,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FamilyTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,7 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Factorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FamilyTrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +240,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Palindrome_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KhayyamTriangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -211,13 +252,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Palindrome_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KhayyamTriangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ShiftAlphabet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="OrderedSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -229,26 +270,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MySearchEngine" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShiftAlphabet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OrderedSearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ShiftAlphabet" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Factorial" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Palindrome_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Fibonacci" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Crawler" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Fibonacci" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Crawler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FamilyTrees" />
+      <item index="3" class="java.lang.String" itemvalue="Python.KhayyamTriangle" />
+      <item index="4" class="java.lang.String" itemvalue="Python.OrderedSearch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Crawler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Fibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Palindrome_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Factorial" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ShiftAlphabet" />
+        <item index="0" class="java.lang.String" itemvalue="Python.OrderedSearch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.KhayyamTriangle" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FamilyTrees" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Crawler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -448,22 +489,30 @@
       <option name="project" value="LOCAL" />
       <updated>1515733435176</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="New file">
+      <created>1515733935299</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1515733935299</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17569546" sideWeight="0.49127182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34046054" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34046054" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34046054" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18081991" sideWeight="0.5087282" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18081991" sideWeight="0.5087282" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,26 +535,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test" />
     <entry file="file://$PROJECT_DIR$/HW 4.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/TenRowAbacus.py">
@@ -565,17 +599,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -639,13 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lookup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -740,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UdacityCourses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -803,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -828,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +848,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lookup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FamilyTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhayyamTriangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <element signature="e#968#1307#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderedSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#2212#4201#0" expanded="false" />
+            <element signature="e#2264#2820#0" expanded="false" />
+            <element signature="e#2871#3152#0" expanded="false" />
+            <element signature="e#3205#3371#0" expanded="false" />
+            <element signature="e#3426#3706#0" expanded="false" />
+            <element signature="e#3760#3997#0" expanded="false" />
+            <element signature="e#4050#4198#0" expanded="false" />
+            <element signature="e#4227#4283#0" expanded="false" />
+            <element signature="e#4317#4560#0" expanded="false" />
+            <element signature="e#4592#4790#0" expanded="false" />
+            <element signature="e#4814#4872#0" expanded="false" />
+            <element signature="e#4923#5008#0" expanded="false" />
+            <element signature="e#5054#5150#0" expanded="false" />
+            <element signature="e#5185#5265#0" expanded="false" />
+            <element signature="e#5328#5773#0" expanded="false" />
+            <element signature="e#5806#6296#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
